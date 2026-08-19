@@ -1,0 +1,131 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Blog de Big Data | Ingeniería de Software</title>
+    <style>
+        :root {
+            --primary-color: #0f172a;
+            --accent-color: #38bdf8;
+            --text-color: #334155;
+            --bg-color: #f8fafc;
+            --card-bg: #ffffff;
+        }
+        * {
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+        }
+        body {
+            font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+            background-color: var(--bg-color);
+            color: var(--text-color);
+            line-height: 1.6;
+        }
+        header {
+            background-color: var(--primary-color);
+            color: #ffffff;
+            padding: 2.5rem 1rem;
+            text-align: center;
+        }
+        header h1 {
+            font-size: 2.5rem;
+            margin-bottom: 0.5rem;
+            color: var(--accent-color);
+        }
+        header p {
+            font-size: 1.1rem;
+            opacity: 0.85;
+        }
+        .container {
+            max-width: 900px;
+            margin: 2rem auto;
+            padding: 0 1rem;
+        }
+        article {
+            background: var(--card-bg);
+            padding: 2.5rem;
+            margin-bottom: 2rem;
+            border-radius: 8px;
+            box-shadow: 0 4px 6px -1px rgba(0, 0, 0, 0.1);
+        }
+        article h2 {
+            color: var(--primary-color);
+            margin-bottom: 1rem;
+            font-size: 1.8rem;
+            border-bottom: 2px solid var(--accent-color);
+            padding-bottom: 0.5rem;
+        }
+        article h3 {
+            color: var(--primary-color);
+            margin: 1.5rem 0 0.5rem 0;
+        }
+        article p {
+            margin-bottom: 1rem;
+        }
+        ul {
+            margin-left: 1.5rem;
+            margin-bottom: 1rem;
+        }
+        li {
+            margin-bottom: 0.5rem;
+        }
+        footer {
+            text-align: center;
+            padding: 1.5rem;
+            background-color: var(--primary-color);
+            color: #ffffff;
+            font-size: 0.9rem;
+            margin-top: 3rem;
+        }
+    </style>
+</head>
+<body>
+
+    <header>
+        <h1>Big Data Insights</h1>
+        <p>Explorando el almacenamiento, procesamiento y análisis de grandes volúmenes de datos.</p>
+    </header>
+
+    <div class="container">
+        <article>
+            <h2>¿Qué es el Big Data y por qué es crucial hoy en día?</h2>
+            <p>El término <strong>Big Data</strong> hace referencia a conjuntos de datos tan grandes y complejos que las herramientas tradicionales de procesamiento de datos no son suficientes para gestionarlos. Estos datos provienen de múltiples fuentes: redes sociales, sensores IoT, transacciones financieras, registros web y más.</p>
+            
+            <h3>Las 5 Vs del Big Data</h3>
+            <ul>
+                <li><strong>Volumen:</strong> La cantidad de datos generados cada segundo (terabytes y petabytes).</li>
+                <li><strong>Velocidad:</strong> La rapidez con la que se reciben y deben procesarse los datos.</li>
+                <li><strong>Variedad:</strong> La diversidad de formatos (estructurados, semiestructurados y no estructurados como texto, video o audio).</li>
+                <li><strong>Veracidad:</strong> La calidad y confiabilidad de los datos recolectados.</li>
+                <li><strong>Valor:</strong> La capacidad de transformar esos datos en información útil para la toma de decisiones.</li>
+            </ul>
+        </article>
+
+        <article>
+            <h2>Arquitectura y Herramientas Principales</h2>
+            <p>Para procesar Big Data de manera eficiente, se requiere una arquitectura distribuida donde múltiples nodos trabajan en paralelo. Entre las tecnologías más destacadas en la industria encontramos:</p>
+            
+            <h3>1. Apache Hadoop</h3>
+            <p>Un framework de código abierto que permite el almacenamiento distribuido de conjuntos grandes de datos a través de clústeres de computadoras utilizando su sistema de archivos HDFS y el modelo de procesamiento MapReduce.</p>
+
+            <h3>2. Apache Spark</h3>
+            <p>Un motor de procesamiento de datos en memoria ultrarrápido que supera las limitaciones de velocidad de MapReduce, ideal para machine learning y análisis en tiempo real.</p>
+
+            <h3>3. Bases de Datos NoSQL</h3>
+            <p>Sistemas como MongoDB, Cassandra o Redis diseñados para almacenar datos no relacionales de manera altamente escalable y flexible.</p>
+        </article>
+
+        <article>
+            <h2>Conclusión</h2>
+            <p>El Big Data ha dejado de ser una tendencia tecnológica futurista para convertirse en el núcleo estratégico de organizaciones en todo el mundo. Comprender su infraestructura, modelos de almacenamiento y herramientas de procesamiento es un pilar fundamental en la formación de cualquier profesional de la ingeniería moderna.</p>
+        </article>
+    </div>
+
+    <footer>
+        <p>Actividad Académica - Ingeniería de Software &copy; 2026</p>
+    </footer>
+
+</body>
+</html>
